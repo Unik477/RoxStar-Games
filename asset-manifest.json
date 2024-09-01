@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RoxStar-Games/static/css/main.59eb7915.css",
+    "main.js": "/RoxStar-Games/static/js/main.ba6a1b6b.js",
+    "index.html": "/RoxStar-Games/index.html",
+    "main.59eb7915.css.map": "/RoxStar-Games/static/css/main.59eb7915.css.map",
+    "main.ba6a1b6b.js.map": "/RoxStar-Games/static/js/main.ba6a1b6b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59eb7915.css",
+    "static/js/main.ba6a1b6b.js"
+  ]
+}

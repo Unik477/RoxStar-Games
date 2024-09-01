@@ -1,0 +1,36 @@
+.game-card{
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    width: min-content;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.game-card:hover{
+    margin-top: 0px;
+}
+.game-image img{
+    height: 401px;
+    width: 325px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.game-detail{
+    color: white;
+    padding: 15px;
+}
+
+.game-platform{
+    display: flex;
+}
+
+.game-platform img{
+    height: 20px;
+    padding: 5px;
+    
+}

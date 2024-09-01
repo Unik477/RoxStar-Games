@@ -2,21 +2,24 @@
     display: flex;
     max-height: 560px ;
     transition: all 1s ease;
+    background-color: black;
 }
 
 .slider-image{
-    max-width: 70%;
+    max-width: 66%;
     max-height: 100%;
 }
 
 .slider-control{
     padding: 10px;
+    padding-left: 25px;
     max-width: 30%;
     color: white;
     position: relative;
 }
 .slider-control h1{
     font-size: 40px!important;
+    max-width: 100%;
 }
 .slider-control button {
     /* background-color: #1e8fff4a; */
@@ -51,7 +54,7 @@
 .slider-buttons{
     position: absolute;
     bottom: 100px;
-    left: 10px;
+    left: 25px;
   /* margin-top: 150px; */
   display: flex;
   gap: 10px;

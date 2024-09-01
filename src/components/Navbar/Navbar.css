@@ -2,8 +2,8 @@
     justify-content: space-between;
     display: flex;
     align-items: center;
-    padding: 10px;
-    font-size: larger;
+    padding: 0px 10px;
+    font-size: medium;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -21,13 +21,15 @@
     max-height: 40px;
     padding: 5px;
     background-color: black;
-
+    padding-bottom: 15px;
+}
+.nav-left h5{
+    padding-bottom: 15px;
 }
 
 .nav-left ul {
     display: flex;
     list-style: none;
-
 }
 
 .nav-left ul li {

@@ -1,0 +1,18 @@
+.cards h1{
+    color: white;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.cards{
+    margin-left: 80px;
+    margin-right: 80px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 30px !important;
+}
+  

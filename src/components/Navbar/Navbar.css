@@ -2,52 +2,54 @@
     justify-content: space-between;
     display: flex;
     align-items: center;
-    padding: 0px 10px;
+    padding: 0px 20px;
     font-size: medium;
     position: sticky;
     top: 0;
     z-index: 10;
     color: white;
     background-color: black;
+    height: 70px;
 }
 
 .nav-left {
     
     display: flex;
+    padding-top: 20px;
     align-items: center;
 }
 
 .nav-left img {
     max-height: 40px;
     padding: 5px;
-    background-color: black;
     padding-bottom: 15px;
 }
 .nav-left h5{
     padding-bottom: 15px;
 }
 
-.nav-left ul {
+.Navbar ul {
     display: flex;
     list-style: none;
 }
 
-.nav-left ul li {
+.Navbar ul li {
     transition: all 1s ease;
     padding-left: 12px;
     padding-right: 12px;
-    padding-top: 5px;
-    padding-bottom: 15px;
+    padding-top: 26px;
+    padding-bottom: 22px;
     border-bottom: 3px solid rgb(0, 0, 0);
     font-weight: bolder;
+    height: 100%;
 }
 
-.nav-left ul li a {
+.Navbar ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
-.nav-left ul li:hover {
+.Navbar ul li:hover {
 
     border-bottom: 3px solid white;
 }

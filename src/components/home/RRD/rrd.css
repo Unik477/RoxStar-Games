@@ -1,3 +1,31 @@
+
+.rrd{
+    margin-top: 100px;
+    display: flex;
+    height: fit-content;
+    background-color: black;
+}
+
+.rrd-left{
+    width: 30%;
+    padding: 60px;
+}
+.rrd-left img{
+    height: 100px;
+}
+.rrd-left p{
+    color: white;
+}
+
+.rrd-right{
+    width: 70%;
+}
+.rrd-right img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
 .rrd-left button{
     /* background-color: #1e8fff4a; */
     font-weight:bold;

@@ -1,0 +1,101 @@
+.footer-top{
+    margin-top: 100px;
+    display: flex;
+    background-color: black;
+}
+
+.footer-left{
+    width: 70%;  
+}
+
+.footer-right{
+    width: 30%; 
+    margin-left:50px; 
+    margin-right:50px; 
+    margin-bottom:50px; 
+}
+.newsletter{
+    color: white;
+    align-items: center;
+}
+.newsletter-subscribe input{
+    height: 24px;
+    width: 240px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.newsletter-subscribe button{
+     /* background-color: #1e8fff4a; */
+     font-weight:bold;
+     background-color: black ;
+     border-color: white;
+     color:white;
+     padding: 10px 20px;
+     text-align: center;
+     /* text-decoration: none; */
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     border-radius: 5px;
+     transition: all 0.3s ease;
+}
+
+.newsletter-subscribe button:hover{
+    background-color: #fdbf56;
+    color: rgb(0, 0, 0);
+    border-color:#fdbf56;
+     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+.footer-right .footer-icon img{
+    margin-top: 20px;
+    transition: all 0.5s ease;
+    padding: 10px;
+    cursor: pointer;
+}
+.footer-right img:hover{
+    background-color: rgba(128, 128, 128, 0.463);
+    border-radius: 50%;
+}
+
+.footer-left ul {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    list-style-type: none;
+    cursor:pointer ;
+}
+
+.footer-left ul li{
+    transition: all 0.5s ease;
+    margin-top: 15px;
+    margin-left: 20px;
+   
+}
+.footer-left ul li:hover{
+    color: #fdbf56;
+}
+
+
+
+.footer-bottom{
+    padding-inline-start: 60px;
+    padding-inline-end: 60px;
+    padding-bottom: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.footer-bottom ul li{
+    padding: 0px 15px;
+    font-weight: bolder;
+}

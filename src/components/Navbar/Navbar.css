@@ -8,7 +8,7 @@
     top: 0;
     z-index: 10;
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.831);
     height: 70px;
 }
 
@@ -59,9 +59,10 @@
     
         /* background-color: #1e8fff4a; */
         font-weight:bold;
-        background-color: black ;
-        border-color: white;
-        color:white;
+       
+        background-color: #fdbf56;
+    color: rgb(0, 0, 0);
+    border-color:#fdbf56;
         padding: 10px 20px;
         text-align: center;
         /* text-decoration: none; */
@@ -75,8 +76,8 @@
 }
 
 .nav-right button:hover {
-    background-color: #fdbf56;
-    color: rgb(0, 0, 0);
-    border-color:#fdbf56;
+    background-color: black ;
+    border-color: white;
+    color:white;
      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
    }

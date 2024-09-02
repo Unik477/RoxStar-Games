@@ -1,6 +1,14 @@
+
 import "./Navbar.css"
 
 export default function Navbar(){
+    
+    const handleScroll = () => {
+        window.scrollTo({
+          top: document.body.scrollHeight,
+          behavior: 'smooth'
+        });
+      };
     return(
         <div className="Navbar">
             <div className="nav-left">
@@ -14,8 +22,8 @@ export default function Navbar(){
             </ul>
 
             <div className="nav-right">
-            <button>Log in</button>
-            <button>Sign Up</button>
+            <button onClick={handleScroll}>Subscribe to Newsletter</button>
+            {/* <button>Sign Up</button> */}
             </div>
         </div>
     )

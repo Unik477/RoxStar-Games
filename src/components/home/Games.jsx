@@ -10,7 +10,7 @@ export default function Games(){
         dots: true,
         infinite: true,
         draggable: true,
-        arrows: false,
+        arrows: true,
         autoplay: true,
         autoplaySpeed: 2500,
         focusOnSelect: true,
@@ -32,8 +32,8 @@ export default function Games(){
       };
     return(
         <>
-        <h1>Games</h1>
         <div className="cards">
+        <h1>Games</h1>
         <Slider {...settings}>
         <Card name="Grand Theft Auto V" price="2,540" image="/images/Store/GTA5.png"/>
         <Card name="Red Dead Redemption" price="3,496" image="/images/Store/RRD.png"/>

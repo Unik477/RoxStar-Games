@@ -34,7 +34,8 @@
 }
 
 .Navbar ul li {
-    transition: all 1s ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 26px;

@@ -1,7 +1,7 @@
-
+import { useNavigate } from "react-router"
 import "./Navbar.css"
-
 export default function Navbar(){
+    const navigate=useNavigate()
     
     const handleScroll = () => {
         window.scrollTo({
@@ -16,9 +16,9 @@ export default function Navbar(){
             <h5>RoxStar Games</h5>
             </div>
             <ul>
-                <li><a href="/">About Us</a></li>
-                <li><a href="/">Products</a></li>
-                <li><a href="/">Contact Us</a></li>
+                <li><a onClick={()=>navigate("/products")}>About Us</a></li>
+                <li><a onClick={()=>navigate("/products")}>Products</a></li>
+                <li><a onClick={()=>navigate("/products")}>Contact Us</a></li>
             </ul>
 
             <div className="nav-right">

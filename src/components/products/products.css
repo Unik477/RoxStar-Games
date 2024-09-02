@@ -1,0 +1,25 @@
+.product-cards{
+    cursor: pointer;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.product-top {
+    cursor: pointer;
+    width: calc(100% - 20px);
+    margin: 10px auto; 
+    padding: 0; 
+  }
+  
+  .product-top img {
+    margin-top: 10px;
+    width: 100%; 
+    height: auto; 
+    display: block; 
+  }
+
+  

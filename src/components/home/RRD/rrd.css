@@ -11,7 +11,7 @@
     padding: 60px;
 }
 .rrd-left img{
-    height: 100px;
+    width: calc(100% - 20px);
 }
 .rrd-left p{
     color: white;
@@ -45,8 +45,8 @@
 }
 
 .rrd-left button:hover{
-    background-color: #fdbf56;
+    background-color: var(--Mycolor);
     color: rgb(0, 0, 0);
-    border-color:#fdbf56;
+    border-color:var(--Mycolor);
      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }

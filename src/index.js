@@ -6,6 +6,8 @@ import { HashRouter as Router,Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Products from './components/products/products';
+import About from './components/about/about';
+import Contact from './components/ContactUs/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +17,8 @@ root.render(
       <Routes>
         <Route exact path="/" element={<App />}/>
         <Route exact path="/products" element={<Products/>}/>
+        <Route exact path="/about" element={<About/>}/>
+        <Route exact path="/contact" element={<Contact/>}/>
       </Routes>
       <Footer/>
     </Router>

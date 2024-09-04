@@ -2,3 +2,7 @@
 body{
   background: #161416;
 }
+
+:root {
+  --Mycolor: #ff4c4c;
+}

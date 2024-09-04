@@ -43,9 +43,9 @@
 }
 
 .newsletter-subscribe button:hover{
-    background-color: #fdbf56;
+    background-color: var(--Mycolor);
     color: rgb(0, 0, 0);
-    border-color:#fdbf56;
+    border-color:var(--Mycolor);
      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 .footer-right .footer-icon img{
@@ -74,7 +74,7 @@
    
 }
 .footer-left ul li:hover{
-    color: #fdbf56;
+    color:var(--Mycolor);
 }
 
 

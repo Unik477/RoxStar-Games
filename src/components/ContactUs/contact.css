@@ -1,0 +1,103 @@
+/* Basic styling for the Contact Us section */
+#contact {
+    background-color: #121212;
+    padding: 50px 20px;
+    color: #f8f8f8;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Form heading styling */
+#contact h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color:var(--Mycolor);
+}
+
+
+.contact-form label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    border: 2px solid #444;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #f8f8f8;
+    font-size: 1em;
+    resize: vertical;
+}
+
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #aaa;
+}
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color:var(--Mycolor);
+    outline: none;
+}
+
+
+.submit-btn {
+    font-weight:bold;
+       
+    background-color: var(--Mycolor);
+color: rgb(0, 0, 0);
+border-color:var(--Mycolor);
+    padding: 10px 20px;
+    text-align: center;
+    /* text-decoration: none; */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+
+.submit-btn:hover {
+    background-color: black ;
+    border-color: white;
+    color:white;
+     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+
+@media (max-width: 480px) {
+    .contact-container {
+        padding: 15px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.9em;
+    }
+
+    .submit-btn {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+}

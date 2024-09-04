@@ -1,0 +1,30 @@
+.about-text {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+
+#about h2 {
+    font-size: 2.5em;
+    color: #f8f8f8;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+#about p {
+    font-size: 1.2em;
+    color: #c0c0c0;
+    line-height: 1.6em;
+    margin-bottom: 15px;
+}
+
+
+#about strong {
+    color: #ff4c4c;
+    font-weight: bold;
+}

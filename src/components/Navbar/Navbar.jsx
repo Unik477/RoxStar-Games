@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router"
 import "./Navbar.css"
+import { NavLink } from "react-router-dom";
 export default function Navbar(){
     const navigate=useNavigate()
     
@@ -13,12 +14,12 @@ export default function Navbar(){
         <div className="Navbar">
             <div className="nav-left">
             <img src={process.env.PUBLIC_URL+"/images/game-logo.png"} alt="404" />
-            <h5>RoxStar Games</h5>
+            <h5 onClick={()=>navigate("/")}>RoxStar Games</h5>
             </div>
             <ul>
-                <li><a onClick={()=>navigate("/products")}>About Us</a></li>
-                <li><a onClick={()=>navigate("/products")}>Products</a></li>
-                <li><a onClick={()=>navigate("/products")}>Contact Us</a></li>
+                <li><NavLink className={({ isActive }) => (isActive ? 'active-link' : '')} to="/about">About Us</NavLink></li>
+                <li><NavLink className={({ isActive }) => (isActive ? 'active-link' : '')} to="/products">Store</NavLink></li>
+                <li><NavLink className={({ isActive }) => (isActive ? 'active-link' : '')} to="/contact">Contact Us</NavLink></li>
             </ul>
 
             <div className="nav-right">

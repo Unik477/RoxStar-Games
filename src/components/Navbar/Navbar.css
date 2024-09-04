@@ -26,6 +26,7 @@
 }
 .nav-left h5{
     padding-bottom: 15px;
+    cursor: pointer;
 }
 
 .Navbar ul {
@@ -34,8 +35,18 @@
 }
 
 .Navbar ul li {
-    transition: all 0.5s ease;
+  
     cursor: pointer;
+    
+}
+.Navbar ul li a.active-link {
+    color: var(--Mycolor);
+    font-weight: bold;
+    border-bottom: 3px solid var(--Mycolor);
+}
+.Navbar ul li a {
+    transition: all 0.5s ease;
+    text-decoration: none;
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 26px;
@@ -43,14 +54,10 @@
     border-bottom: 3px solid rgb(0, 0, 0);
     font-weight: bolder;
     height: 100%;
-}
-
-.Navbar ul li a {
-    text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
-.Navbar ul li:hover {
+.Navbar ul li a:hover {
 
     border-bottom: 3px solid white;
 }
@@ -60,9 +67,9 @@
         /* background-color: #1e8fff4a; */
         font-weight:bold;
        
-        background-color: #fdbf56;
+        background-color: var(--Mycolor);
     color: rgb(0, 0, 0);
-    border-color:#fdbf56;
+    border-color:var(--Mycolor);
         padding: 10px 20px;
         text-align: center;
         /* text-decoration: none; */

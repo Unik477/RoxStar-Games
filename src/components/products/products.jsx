@@ -7,7 +7,7 @@ export default function Products() {
         '/images/Store/GTA4.png',
         '/images/Store/RRD.png',
         '/images/Store/manhunt.jpg',
-        '/images/Store/Maxp3.png',
+        '/images/Store/MaxP3.png',
         '/images/Store/GTAvice.jpg',
         '/images/Store/LANoire.jpg',
         '/images/Store/bully.png',

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/RoxStar-Games/static/css/main.28bc8bcf.css",
-    "main.js": "/RoxStar-Games/static/js/main.c7c8012b.js",
+    "main.css": "/RoxStar-Games/static/css/main.3309809f.css",
+    "main.js": "/RoxStar-Games/static/js/main.8aa82566.js",
     "static/media/slick.svg": "/RoxStar-Games/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/RoxStar-Games/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/RoxStar-Games/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/RoxStar-Games/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/RoxStar-Games/index.html",
-    "main.28bc8bcf.css.map": "/RoxStar-Games/static/css/main.28bc8bcf.css.map",
-    "main.c7c8012b.js.map": "/RoxStar-Games/static/js/main.c7c8012b.js.map"
+    "main.3309809f.css.map": "/RoxStar-Games/static/css/main.3309809f.css.map",
+    "main.8aa82566.js.map": "/RoxStar-Games/static/js/main.8aa82566.js.map"
   },
   "entrypoints": [
-    "static/css/main.28bc8bcf.css",
-    "static/js/main.c7c8012b.js"
+    "static/css/main.3309809f.css",
+    "static/js/main.8aa82566.js"
   ]
 }
